@@ -1,0 +1,38 @@
+<div class="container contain" *ngFor = "let myApplication of Applications">
+    <a routerLink="#" class="wrap">
+        <div class="logo">
+            <img src="{{myApplication.companyLogo}}" alt="" id="image">
+            <div class="title">
+                <p class="companyName">{{myApplication.companyName}}</p>
+                <p class="companyRole">{{myApplication.role}}</p>
+            </div>
+        </div>
+
+        <div class="salary-location">
+            <div class="location">
+                <img src="../../assets/location.png" alt="" id="image-arab">
+                <p id="arab">{{myApplication.location}}</p>
+            </div>
+
+            <div class="salary">
+                <p id="amount">{{myApplication.salary}}</p>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="skill">
+                <ul class="list-skill">
+                    <li  *ngFor = "let subItem of myApplication['tools']">
+                        {{subItem}}
+                    </li>
+                </ul>
+            </div>
+
+            <div class="days">
+                <a>
+                    {{myApplication.time}}
+                </a>
+            </div>
+        </div>
+    </a>
+</div>

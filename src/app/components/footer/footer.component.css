@@ -1,0 +1,17 @@
+.side-image{
+    width: 1vw;
+    margin-right: 10px;
+    margin-left: 20px;
+    /* border: 1px solid ; */
+    background: none;
+}
+    /* background: white; */
+.footer{
+    background-color: #440F7C;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer a{
+    text-decoration: none;
+}

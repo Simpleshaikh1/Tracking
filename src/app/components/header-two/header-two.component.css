@@ -1,0 +1,19 @@
+.header-img{
+    width: 1vw;
+    background-color: red;
+}
+.navbar-two{
+    margin-top: 1   0px;
+}
+.logout{
+    text-decoration: none;
+    margin-right: 20px;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.myapplication{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}

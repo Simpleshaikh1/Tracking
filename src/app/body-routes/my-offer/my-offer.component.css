@@ -1,0 +1,130 @@
+.contain{
+    width: 100%;
+    /* height: 14.7; */
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    display: flex;
+    font-family: sans-serif;
+    /* font-size: 12px; */
+}
+
+
+.contain a{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo{
+    /* border: 1px solid black; */
+    width: 28%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5E5873;
+    /* border: 2px solid black; */
+    gap: 0.5rem;
+    
+}
+.title{
+    margin-left: 5px;
+}
+.image{
+    margin-right: 10px;
+}
+.companyName{
+    font-size: 15px;
+    margin-top: 1rem;
+}
+.companyRole{
+    font-weight: bold;
+    margin-top: -1rem;
+    
+}
+
+.salary-location{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.skills{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.skill{
+    /* width: 60%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.list-skill{
+    list-style-type: none;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list-skill li{
+    
+    border: 2px solid #D62196;
+    border-radius: 5px;
+    color: #D62196;
+    text-align: center;
+    margin: 5px;
+    padding: 7px;
+    font-weight: bold;
+    
+}
+.days{
+    /* border: 1px solid ; */
+    padding: 0 20px 0 20px;
+    display: flex;
+}
+
+
+.location , #amount{
+    background-color: #F7D3EA;
+    color: #D62196;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.location{
+    /* width: 50% ; */
+    height: 2rem;
+    padding: 0 0.5rem 0 0.5rem;
+    display: flex;
+    gap: 0.3rem;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+#arab{
+    margin-top: 0.9rem;
+}
+.salary{
+    margin-top: 0.9rem;
+}
+
+
+#amount{
+    text-align: center;
+}

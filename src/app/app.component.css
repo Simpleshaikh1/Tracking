@@ -1,0 +1,9 @@
+.sidebar-body{
+    display: flex;
+}
+.full-card{
+
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
